@@ -1,6 +1,10 @@
 .idea
 /app/config/parameters.yml
-/build/
+/build/api
+/build/coverage
+/build/logs
+/build/pdepend
+/build/phpdox
 /phpunit.xml
 /var/*
 !/var/cache
@@ -15,3 +19,5 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
+/build/api/
+/cache.properties
