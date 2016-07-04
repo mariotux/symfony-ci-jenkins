@@ -79,9 +79,9 @@
         <mkdir dir="${basedir}/build/logs"/>
         <mkdir dir="${basedir}/build/pdepend"/>
         <mkdir dir="${basedir}/build/phpdox"/>
-        <property name="prepare.done" value="true"/>
         <copy file="${basedir}/phpunit.xml.dist" tofile="${basedir}/phpunit.xml"/>
         <copy file="${basedir}/app/config/parameters.yml.dist" tofile="${basedir}/app/config/parameters.yml"/>
+        <property name="prepare.done" value="true"/>
     </target>
 
     <target name="composer-selfupdate" unless="composer.noselfupdate">
