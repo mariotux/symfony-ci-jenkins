@@ -1,6 +1,10 @@
 <?php
 namespace Tests\AppBundle\Unit;
 
+/**
+ * Class ExampleTest
+ * @package Tests\AppBundle\Unit
+ */
 class ExampleTest extends \PHPUnit_Framework_TestCase
 {
     /**
